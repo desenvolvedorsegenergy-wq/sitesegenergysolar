@@ -19,9 +19,9 @@ export function LeadershipSection() {
 
                 <div className="relative flex flex-col sm:flex-row">
                   {/* Photo placeholder */}
-                  <div className="relative h-64 shrink-0 overflow-hidden sm:h-auto sm:w-48">
+                  <div className="relative h-80 shrink-0 overflow-hidden sm:h-auto sm:w-48 md:h-60">
                     <div className="flex h-full min-h-[256px] items-center justify-center bg-gradient-to-br from-seg-navy to-[#1E3A5F]">
-                      <div className="flex h-80 w-180 items-center justify-center rounded-full border-2 border-seg-green/30 bg-seg-navy/80 text-2xl font-bold text-seg-green backdrop-blur-sm">
+                      <div className="flex h-80 w-full items-start justify-center rounded-none border-2 border-seg-green/30 bg-seg-navy/80 p-6 text-2xl font-bold text-seg-green backdrop-blur-sm md:w-180 md:items-center md:rounded-full">
                       <Image
                           src={executive.image}
                           alt={executive.name}

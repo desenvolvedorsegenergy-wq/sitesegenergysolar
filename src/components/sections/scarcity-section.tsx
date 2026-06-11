@@ -29,7 +29,7 @@ export function ScarcitySection() {
           </p>
 
           <LinkButton
-            href="#contato"
+            href="#franquias"
             size="lg"
             className="mt-8 h-14 bg-seg-green px-8 text-base font-semibold text-white hover:bg-seg-green/90"
           >

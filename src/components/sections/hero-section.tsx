@@ -64,7 +64,7 @@ export function HeroSection() {
 
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <LinkButton
-              href="#contato"
+              href="#franquias"
               size="lg"
               className="h-14 bg-seg-green px-8 text-base font-semibold text-white hover:bg-seg-green/90"
             >
@@ -72,7 +72,7 @@ export function HeroSection() {
               <ArrowRight className="ml-2 h-4 w-4" />
             </LinkButton>
             <LinkButton
-              href="#contato"
+              href="#franquias"
               size="lg"
               variant="outline"
               className="h-14 border-white/20 bg-white/5 px-8 text-base font-semibold text-white backdrop-blur-sm hover:bg-white/10 hover:text-white"

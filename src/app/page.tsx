@@ -76,7 +76,7 @@ export default function HomePage() {
         <LeadershipSection />
         <ReturnSection />
         <ScarcitySection />
-        <FormSection />
+        {/*<FormSection />*/}
       </main>
       <Footer />
     </>

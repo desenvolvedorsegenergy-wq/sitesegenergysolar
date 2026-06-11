@@ -67,7 +67,7 @@ export function Header() {
           )}
 
           <LinkButton
-            href="#contato"
+            href="#franquias"
             size="lg"
             className="hidden bg-seg-green text-white hover:bg-seg-green/90 sm:inline-flex"
           >

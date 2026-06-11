@@ -5,6 +5,9 @@ import { AnimatedSection, FadeIn } from "@/components/shared/animated-section";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { SolarIllustration } from "@/components/shared/solar-illustration";
 import { SOLAR_BENEFITS, SOLAR_MARKETS } from "@/lib/constants";
+import { ArrowRight, Globe, TrendingUp, Building2 } from "lucide-react";
+import { LinkButton } from "@/components/shared/link-button";
+
 
 export function SolarSection() {
   return (
@@ -12,7 +15,7 @@ export function SolarSection() {
       id="franquias"
       className="relative overflow-hidden bg-seg-gray py-24 dark:bg-seg-navy/30 sm:py-32"
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" id="franquias">
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>
             <SectionHeading
@@ -21,7 +24,6 @@ export function SolarSection() {
               title="SegEnergy Solar"
               subtitle="Transforme o crescimento da energia solar em um negócio altamente lucrativo."
             />
-
             <ul className="mb-8 space-y-3">
               {SOLAR_MARKETS.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-muted-foreground">
@@ -44,6 +46,14 @@ export function SolarSection() {
                 ))}
               </ul>
             </div>
+            <LinkButton
+              href="https://franquiasegenergy.com.br/"
+              size="lg"
+              className="h-14 bg-seg-green px-8 text-base font-semibold text-white hover:bg-seg-green/90 mt-5"
+            >
+              Quero ser Franqueado
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </LinkButton>
           </div>
 
           <FadeIn direction="left" className="flex justify-center lg:justify-end">

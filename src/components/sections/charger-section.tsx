@@ -5,6 +5,9 @@ import { AnimatedSection, FadeIn } from "@/components/shared/animated-section";
 import { SectionHeading } from "@/components/shared/section-heading";
 import { ChargerIllustration } from "@/components/shared/charger-illustration";
 import { CHARGER_BENEFITS } from "@/lib/constants";
+import { ArrowRight, Globe, TrendingUp, Building2 } from "lucide-react";
+import { LinkButton } from "@/components/shared/link-button";
+
 
 export function ChargerSection() {
   return (
@@ -43,6 +46,14 @@ export function ChargerSection() {
                 ))}
               </ul>
             </div>
+            <LinkButton
+              href="https://franquiasegenergy.com.br/charger"
+              size="lg"
+              className="h-14 bg-seg-green px-8 text-base font-semibold text-white hover:bg-seg-green/90 mt-5"
+            >
+              Quero ser Franqueado
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </LinkButton>
           </div>
         </div>
       </div>
