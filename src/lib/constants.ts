@@ -11,7 +11,6 @@ export const NAV_LINKS = [
   { href: "#inicio", label: "Início" },
   { href: "#franquias", label: "Franquias" },
   { href: "#grupo", label: "Grupo Zanon" },
-  { href: "#contato", label: "Contato" },
 ] as const;
 
 export const HERO_STATS = [
