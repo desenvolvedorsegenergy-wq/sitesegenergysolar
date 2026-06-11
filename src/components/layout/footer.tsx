@@ -62,7 +62,7 @@ export function Footer() {
             © {currentYear} {SITE_CONFIG.name}. Todos os direitos reservados.
           </p>
           <p className="text-xs text-white/40">
-            Parte do Grupo Zanon · {SITE_CONFIG.email}
+            Grupo Zanon · {SITE_CONFIG.email}
           </p>
         </div>
       </div>

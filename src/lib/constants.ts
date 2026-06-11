@@ -105,9 +105,9 @@ export const BRAZIL_STATES = [
 ] as const;
 
 export const SOCIAL_LINKS = [
-  { href: "https://instagram.com/segenergysolar", label: "Instagram" },
-  { href: "https://linkedin.com/company/segenergysolar", label: "LinkedIn" },
-  { href: "https://youtube.com/@segenergysolar", label: "YouTube" },
+  { href: "https://www.instagram.com/segenergyfranchising/", label: "Instagram" },
+  { href: "https://web.facebook.com/segenergyfranchising", label: "Facebook" },
+  { href: "https://www.youtube.com/channel/UCVPkWAxirBpmY05CEJDyxhQ", label: "YouTube" },
 ] as const;
 
 export const INTEREST_OPTIONS = [
